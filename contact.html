@@ -15,7 +15,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="./js/blocs.js"></script> 
-
+	<script src="./js/formHandler.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
     
 <!-- Analytics -->
  
@@ -74,12 +75,12 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
+				<form id="form_1"  success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que nos serveurs ne répondent pas, Veuillez nous excuser pour le derangement !">
+					<div class="form-group ">
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
 						<label>
@@ -91,7 +92,7 @@
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
@@ -157,6 +158,6 @@
 </div>
 <!-- Principal conteneur END -->
     
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -34,7 +34,7 @@ $(function()
 				});
 	
 				$.ajax({
-		        	url: processorFile,
+		        url: processorFile,
 		    		type: "POST",
 		    		data: formData,
 		    		cache: false,
