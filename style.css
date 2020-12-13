@@ -10,22 +10,13 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-/* #page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-} */
 
 .bloc {
     width: 100%;
@@ -100,7 +91,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(42, 42, 42, 0.9);
 }
 
 .d-bloc button:hover {
@@ -195,7 +186,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel button:hover,
@@ -325,6 +316,9 @@ a:hover {
     background-color: #f3976c;
     border-radius: 5px;
 }
+.nav > li > a:focus {
+    background-color: #f3976c;
+}
 .nav > li {
     float: left;
     font-size: 2rem;
@@ -337,6 +331,11 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+}
+
+.navbar-toggle:focus {
+    background: #F3976C!important;
+    border: dotted 1px;
 }
 
 .navbar-toggle:hover {
@@ -433,13 +432,13 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .btn {
@@ -455,10 +454,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -518,13 +513,17 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.scrollToTop:focus {
+    border: dotted 1px;
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 a[data-lightbox] {
@@ -650,7 +649,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -704,8 +703,10 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 2.2rem;
+    line-height: 1.5em;
+    text-decoration: underline;
+    font-weight: 800;
 }
 
 h3 {
@@ -771,20 +772,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c;
 }
 
 .tc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c4542b!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c4542b;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #f3976c!important;
     color: #FFFFFF!important;
 }
 
@@ -805,8 +806,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #c4542b!important;
+    border-color: #c4542b!important;
 }
 
 .bg-dots-bg {
