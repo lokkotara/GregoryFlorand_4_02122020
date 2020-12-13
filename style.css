@@ -324,17 +324,11 @@ a:hover {
 
 .nav > li {
     float: left;
-    /* margin-top: 4px; */
     font-size: 2rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
-}
-
-.nav > li a:hover,
-.nav > li a:focus {
-    /* background: transparent; */
 }
 
 .navbar-toggle {
@@ -343,7 +337,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: #F3976C!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -757,6 +751,7 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+    border-radius: 25px;
 }
 
 .bold-link {
@@ -776,7 +771,7 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-atomic-tangerine {
     color: #F3976C!important;
 }
 
