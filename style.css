@@ -78,21 +78,6 @@ a:hover {
     background: top no-repeat;
 }
 
-/* .bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-} */
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -909,21 +894,13 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
-    } */
+   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    /* .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
-    } */
+    
 }
 
 @media (max-width: 767px) {
