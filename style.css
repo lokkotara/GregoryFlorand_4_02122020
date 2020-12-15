@@ -499,8 +499,8 @@ nav .caret {
     height: 40px;
     position: fixed;
     bottom: 2rem;
-    right: 2rem;
-    opacity: 0;
+    right: 1.5rem;
+    visibility: hidden;
     z-index: 5;
     transition: all .3s ease-in-out;
 }
@@ -515,7 +515,7 @@ nav .caret {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 0.8;
+    visibility: visible;
 }
 
 a[data-lightbox] {
@@ -577,17 +577,17 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: #fff;
     font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: var(--primary-color);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .close-lightbox:hover,
@@ -601,7 +601,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: var(--primary-color);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -640,7 +640,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 500;
     color: #202020;
 }
 
@@ -649,18 +649,19 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 3.5rem;
     font-weight: 800;
 }
 
-.hero-bloc-text-sub {
-    font-size: 36px;
+.icon-text-sub {
+    font-size: 2.1rem;
+    font-weight: 600;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -708,7 +709,9 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+.full-size {
+    width: 100%;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -747,7 +750,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
+.light-background {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 40px 40px 40px 40px;
     border-radius: 25px;
