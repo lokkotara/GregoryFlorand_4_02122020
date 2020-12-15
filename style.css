@@ -347,12 +347,12 @@ a:hover {
 }
 
 .navbar-toggle:focus {
-    background: var(--secondary-color)!important;
+    background: var(--primary-color)!important;
     border: dotted 1px;
 }
 
 .navbar-toggle:hover {
-    background: var(--secondary-color)!important;
+    background: var(--primary-color)!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -465,8 +465,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    color: #FFF!important;
+    background: var(--secondary-color);
 }
 
 .btn-rd {
