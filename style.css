@@ -10,6 +10,9 @@ body {
     --primary-color: #F3976C;
     --secondary-color: #cf7655;
 }
+.darkening {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 .form-group label {
     font-size: 1.7rem;
 }
