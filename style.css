@@ -5,7 +5,9 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    --primary-color: #c4542b;
+    /* --primary-color: #c4542b; */
+    /* --primary-color: #ffc7ac; */
+    --primary-color: #F3976C;
     --secondary-color: #cf7655;
 }
 .form-group label {
