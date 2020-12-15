@@ -6,4 +6,5 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
+#sitemap
 Sitemap: https://lokkotara.github.io/GregoryFlorand_4_02122020/sitemap.xml
