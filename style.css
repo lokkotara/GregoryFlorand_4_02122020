@@ -25,7 +25,9 @@ a,
 button {
     transition: all .3s ease-in-out;
 }
-
+blockquote {
+    border-color: var(--primary-color);
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -443,7 +445,10 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
+.mg-top {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
 .mg-md {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -770,7 +775,10 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+.light-shadow {
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
 .light-background {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 40px 40px 40px 40px;
